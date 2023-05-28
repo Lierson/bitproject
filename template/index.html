@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bits de CPU</title>
+</head>
+<body>
+    <h1>Bits de CPU</h1>
+    <p>Valor da CPU: <span id="cpu-value"></span>%</p>
+    <p>Número de bits calculados: <span id="bits-value"></span></p>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function updateValues() {
+            $.ajax({
+                url: "/update",
+                success: function(data) {
+                    $("#cpu-value").text(data.cpu_usage);
+                    $("#bits-value").text(data.bits);
+                }
+            });
+        }
+        updateValues();
+        setInterval(updateValues, 1000);
+    </script>
+</body>
+</html>
