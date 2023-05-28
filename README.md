@@ -1,5 +1,6 @@
 # bitproject
 Monitoramento de Uso de CPU e Mineração de Bitcoin
+
 Este projeto em Python consiste em um aplicativo web que monitora o uso da CPU do computador e simula o processo de mineração de Bitcoin. Ele exibe o valor atual do uso da CPU em porcentagem e o número de bits calculados com base nesse valor.
 
 Pré-requisitos
