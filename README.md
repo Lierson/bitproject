@@ -1,5 +1,5 @@
 # bitproject
-Monitoramento de Uso de CPU e Mineração de Bitcoin
+Monitoramento de Uso de CPU, Mineração de Bitcoin e Número infinito.
 
 Este projeto em Python consiste em um aplicativo web que monitora o uso da CPU do computador e simula o processo de mineração de Bitcoin. Ele exibe o valor atual do uso da CPU em porcentagem e o número de bits calculados com base nesse valor.
 
@@ -31,6 +31,9 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests c
 
 Licença
 Este projeto está licenciado sob a Licença MIT.
+
+
+Comentário do autor: Equação do numero infinito,o codigo coleta a quantidade de bits utilizados em tempo real, salva em um numero e assim por diante, como o bit é a menor unidade da computaçºão isso se tranforma em registro de números infinito. Uma máquina poderosa seria ótimo para chegarmos ao teleport.
 
 Contato
 Para mais informações ou dúvidas, entre em contato com (https://www.linkedin.com/in/lierson-de-paula-rodrigues-86408133/).
